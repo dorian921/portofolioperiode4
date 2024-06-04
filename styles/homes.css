@@ -72,7 +72,7 @@ nav {
 
 .imgdori {
   position: relative;
-  margin-top: 4.3%;
+  margin-top: 5.5%;
   margin-left: 40%;
 }
 
@@ -239,4 +239,49 @@ nav {
   width: 16%;
   margin-left: -0.2%;
   margin-top: -5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .titel-home {
+    position: relative;
+    color: #CFF8F1;
+    margin-top: 40%;
+    margin-left: 10%;
+    font-size: 32px;
+  }
+  .home-text {
+    position: relative;
+    color: #CFF8F1;
+    margin-top: 50;
+    margin-left: -19.7%;
+    font-size: 19px;
+  }
+  .home-text2 {
+    position: absolute;
+    display: inline;
+    color: #CFF8F1;
+    margin-top: 18%;
+    margin-left: 10%;
+    font-size: 19px;
+  }
+  .home-info1 {
+    position: absolute;
+    color: #CFF8F1;
+    font-size: 19px;
+    margin-top: 44%;
+    margin-left: 22%;
+  }
+  .home-info2 {
+    position: absolute;
+    color: #CFF8F1;
+    font-size: 19px;
+    margin-top: 60%;
+    margin-left: 22%;
+  }
+  .imgdori {
+    position: relative;
+    margin-top: 40%;
+    margin-left: 40%;
+    width: 40%;
+  }
 }/*# sourceMappingURL=homes.css.map */
