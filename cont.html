@@ -11,22 +11,28 @@
 <body>
     <nav id="navim"></nav>
     <script>
+      
       $.get("nav.html", function(data){
         $("#navim").replaceWith(data);
       });
     </script>
-
-    <article class="cont-titel">
-      neem contact op
-    </article>
+    <section class="background2"></section>
+    <article class="cont-titel">neem contact op</article>
+    
     <section class="imges">
-      <img class="gitimg" src="img/gitic.png" alt="github"> 
+      <img class="gitimg" src="img/gitic.png" alt="github" > 
       <img class="linkin" src="img/linkin.png" alt="linkdin">
-
+      <img class="mail" src="img/Gmail_icon_(2020).png" alt="mail">
+      
     </section>
   
+  
+<a class="gittext"  href="https://github.com/dorian921" target="_blank">github</a>
+<a class="lintext" href="https://www.linkedin.com/in/dorian-volmer-89b0ba293/" target="_blank">linkedin</a>
+<a class="mailtext" href="mailto:9022369@student.tcrmbo.nl">gmail</a>
 
-
-    
+ 
+  
+  
 </body>
-</head>
+<script src="email.js" ></script>
