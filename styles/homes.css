@@ -188,7 +188,7 @@ nav {
   border: 5px #6AD2C0 solid;
 }
 
-.port-info1, .port-info2, .port-info3, .port-info4 {
+.port-info1, .port-info2, .port-info3, .port-info4, .port-info5 {
   position: absolute;
   display: none;
 }
@@ -198,16 +198,8 @@ nav {
   width: 23%;
 }
 
-.hidden {
-  display: none;
-}
-
-.visible {
-  display: block;
-}
-
 .port-info4 {
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
@@ -217,10 +209,18 @@ nav {
   margin-top: 10PX;
 }
 
+.hc {
+  margin-left: 15px;
+}
+
 .cssic {
   margin-left: -1%;
   margin-top: 10px;
   width: 15%;
+}
+
+.cc {
+  margin-left: 15px;
 }
 
 .jsic {
@@ -229,15 +229,28 @@ nav {
   margin-top: 10px;
 }
 
+.jc {
+  margin-left: 15px;
+}
+
 .phpic {
   width: 16%;
-  margin-left: -0.2%;
+  margin-left: 20%;
   margin-top: 10px;
+}
+
+.pc {
+  margin-left: 20%;
+  margin-top: -5%;
+}
+
+.sc {
+  margin-left: 20%;
 }
 
 .sqlic {
   width: 16%;
-  margin-left: -0.2%;
+  margin-left: 18%;
   margin-top: -5px;
 }
 
