@@ -84,6 +84,11 @@ nav {
   height: 65vh;
 }
 
+.rekenmp {
+  position: absolute;
+  padding-left: 20%;
+}
+
 .cont-titel {
   position: relative;
   color: white;
